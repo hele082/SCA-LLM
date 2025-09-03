@@ -261,6 +261,21 @@ Key requirements:
 - Input shape: (batch_size, seq_len, feature_size)
 - Output shape: (batch_size, pred_len, feature_size)
 
+## Citation
+
+If you find our work useful in your research, please consider citing our paper:
+
+```bibtex
+@misc{SCALLM,
+      title={SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM}, 
+      author={First Author and Second Author and Third Author},
+      year={2025},
+      eprint={Your_Paper_ID_Here},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT}
+}
+```
+
 ## Acknowledgments
 
 This project utilizes code from the [LLM4CP](https://github.com/liuboxun/LLM4CP) project for some of the baseline model comparisons. We are grateful to the authors of LLM4CP for making their work publicly available.
