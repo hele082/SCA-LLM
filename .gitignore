@@ -1,0 +1,23 @@
+# Datasets
+channel_data/2.4GHz/UMa_NLOS
+channel_data/2.4GHz/UMi_NLOS
+
+# Temporary files and checkpoints
+temp/
+
+# TensorBoard logs
+runs/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE / Editor specific
+.vscode/
+.idea/
