@@ -21,3 +21,6 @@ venv/
 # IDE / Editor specific
 .vscode/
 .idea/
+
+# macOS
+.DS_Store

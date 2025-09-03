@@ -1,8 +1,8 @@
-# SCA-LLM: Large Language Model for Channel Prediction
+# SCA-LLM: SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM
 
 [![arXiv](https://img.shields.io/badge/arXiv-Your_Paper_ID-b31b1b.svg)](https://arxiv.org/abs/Your_Paper_ID_Here)
 
-This repository contains the implementation for the paper: **SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM**
+This repository contains the implementation for the paper: **SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM(https://arxiv.org/abs/Your_Paper_ID_Here)**
 
 ## Note on Naming
 
@@ -33,7 +33,7 @@ Please note that the core model proposed in our paper is named **SCA-LLM**. Howe
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd SCALLM
+cd SCA-LLM
 ```
 
 2. Install dependencies:
@@ -54,7 +54,7 @@ channel_data/2.4GHz/
 └── UMa_Test.mat
 ```
 
-The framework expects CSI data in HDF5 format. The dataset should follow this structure:
+The dataset files are in MATLAB's v7.3 format, which uses HDF5 internally to store large arrays. The main data is stored under the following key and shape:
 - Key: 'channel_data'
 - Shape: (Nv, Nu, T, Nsc, Nr, Nt) where:
   - Nv: Number of velocities (0-60km/h, step: 5km/h)
@@ -64,9 +64,9 @@ The framework expects CSI data in HDF5 format. The dataset should follow this st
   - Nr: Number of receive antennas
   - Nt: Number of transmit antennas
 
-## Pre-trained Models
+## Model Checkpoints
 
-The pre-trained model checkpoints used to generate the results in the paper are provided in this repository.
+The trained model checkpoints used to generate the results in the paper are provided in this repository.
 - The main models (SCA-LLM, baselines) are located in `checkpoints/2.4GHz/`.
 - Models for the ablation study are in `ablation_experiment/ckpts/`.
 
@@ -182,21 +182,6 @@ python model_evaluation.py \
     --output_dir="Results"
 ```
 
-### Evaluation Results Format
-
-Evaluation results are saved in three formats:
-1. MATLAB (.mat) - For MATLAB analysis
-2. Pickle (.pkl) - For Python reloading
-3. JSON (.json) - Human-readable format
-
-The results structure includes:
-- NMSE (Normalized Mean Square Error)
-  - Average values per velocity/SNR
-  - Per-step values
-- Spectral Efficiency (SE)
-  - Estimated and true values
-  - Average and per-step metrics
-
 ## Visualization
 
 ### Using the Visualization Script
@@ -236,7 +221,7 @@ For convenience, use the provided visualization scripts:
 
 ### Visualization Output
 
-The framework generates:
+The visualization scripts generate:
 1. High-quality plots in specified format (PNG, PDF, etc.)
 2. MATLAB-compatible data files for further customization
 3. MATLAB scripts for recreating and customizing plots
