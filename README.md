@@ -1,4 +1,4 @@
-# SCA-LLM: SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM
+# SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM
 
 [![arXiv](https://img.shields.io/badge/arXiv-Your_Paper_ID-b31b1b.svg)](https://arxiv.org/abs/Your_Paper_ID_Here)
 
