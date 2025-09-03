@@ -4,9 +4,13 @@
 
 This repository contains the implementation for the paper: **SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM(https://arxiv.org/abs/Your_Paper_ID_Here)**
 
+We firmly believe that openness and sharing are the core driving forces for the advancement of the academic community. To promote research transparency and result reproducibility, we are open-sourcing the complete implementation code for this paper. Although as part of a research project, the code may have some imperfections, we sincerely hope it can provide a valuable reference and help for researchers in related fields.
+
 ## Note on Naming
 
 Please note that the core model proposed in our paper is named **SCA-LLM**. However, during the initial development phase of this project, the model was temporarily named `SPAGPT2`. Therefore, you will find that some of the source code files, model class names, and saved checkpoint files (e.g., in `proposed_models/`, `ablation_experiment/ckpts/`) still use the `SPAGPT2` naming convention. This is a historical artifact and does not affect the implementation or the results presented in the paper.
+
+Similarly, the baseline model from the LLM4CP project, which we have included for comparison, uses the name `GPT4CP` within its source code.
 
 ## Project Structure
 
