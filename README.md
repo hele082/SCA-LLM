@@ -10,7 +10,7 @@ We firmly believe that openness and sharing are the core driving forces for the 
 
 Please note that the core model proposed in our paper is named **SCA-LLM**. However, during the initial development phase of this project, the model was temporarily named `SPAGPT2`. Therefore, you will find that some of the source code files, model class names, and saved checkpoint files (e.g., in `proposed_models/`, `ablation_experiment/ckpts/`) still use the `SPAGPT2` naming convention. This is a historical artifact and does not affect the implementation or the results presented in the paper.
 
-Similarly, the baseline model from the LLM4CP project, which we have included for comparison, uses the name `GPT4CP` within its source code.
+Similarly, the baseline model from the [LLM4CP](https://github.com/liuboxun/LLM4CP) project, which we have included for comparison, uses the name `GPT4CP` within its source code.
 
 ## Project Structure
 
