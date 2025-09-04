@@ -4,6 +4,8 @@
 
 This repository contains the implementation for the paper: [SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM](https://arxiv.org/abs/Your_Paper_ID_Here).
 
+**[📄 Read the Paper (PDF)](./manuscript.pdf)**
+
 We firmly believe that openness and sharing are the core driving forces for the advancement of the academic community. To promote research transparency and result reproducibility, we are open-sourcing the complete implementation code for this paper. Although as part of a research project, the code may have some imperfections, we sincerely hope it can provide a valuable reference and help for researchers in related fields.
 
 ## Note on Naming
