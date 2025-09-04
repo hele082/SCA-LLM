@@ -265,16 +265,21 @@ Key requirements:
 
 ## Citation
 
+Our paper is currently under review. We will update this section with the complete citation information upon acceptance.
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
-@misc{SCALLM,
-      title={SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM}, 
-      author={First Author and Second Author and Third Author},
-      year={2025},
-      eprint={Your_Paper_ID_Here},
-      archivePrefix={arXiv},
-      primaryClass={cs.IT}
+@article{SCALLM,
+  author    = {Ke He and
+               Le He and
+               Lisheng Fan and
+               Xianfu Lei and
+               Thang X. Vu and
+               George K. Karagiannidis and
+               Symeon Chatzinotas},
+  title     = {{SCA-LLM}: Spectral-Attentive Channel Prediction with Large Language Models in {MIMO-OFDM}},
+  journal   = {Under Review},
+  year      = {2025}
 }
 ```
 
