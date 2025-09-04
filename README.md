@@ -55,9 +55,9 @@ The CSI dataset used for this project is too large to be hosted on GitHub. Pleas
 
 After downloading, place the `.mat` files into the `channel_data/` directory. The expected structure is:
 ```
-channel_data/2.4GHz/
-├── UMa_Train.mat
-└── UMa_Test.mat
+channel_data/2.4GHz/UMa_NLOS
+├── 2.4GHz_UMa_Test.mat
+└── 2.4GHz_UMa_Train.mat
 ```
 
 The dataset files are in MATLAB's v7.3 format, which uses HDF5 internally to store large arrays. The main data is stored under the following key and shape:
