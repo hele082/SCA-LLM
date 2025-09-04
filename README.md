@@ -49,9 +49,11 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 
-The CSI dataset used for this project is too large to be hosted on GitHub. Please download it from the following link:
+The CSI dataset used for this project is too large to be hosted on GitHub. Please download it from one of the following links:
 
-**[>> Download Dataset Here <<](https://your-dataset-download-link.com)**
+**[>> Google Drive <<](https://drive.google.com/file/d/1fZbpsHKDjFYntIostH2jFfX1wC_OUUdj/view?usp=drive_link)**
+
+**[>> Baidu Net Disk <<](https://pan.baidu.com/s/1_Ynj3kZ3IvvCkQOXTvwyWA?pwd=scal)**
 
 After downloading, place the `.mat` files into the `channel_data/` directory. The expected structure is:
 ```
