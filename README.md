@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 The CSI dataset used for this project is too large to be hosted on GitHub. Please download it from one of the following links:
 
-**[>> Google Drive <<](https://drive.google.com/file/d/1fZbpsHKDjFYntIostH2jFfX1wC_OUUdj/view?usp=drive_link)**
+**[>> Google Drive <<](https://drive.google.com/file/d/1fZbpsHKDjFYntIostH2jFfX1wC_OUUdj/view?usp=sharing)**
 
 **[>> Baidu Net Disk <<](https://pan.baidu.com/s/1_Ynj3kZ3IvvCkQOXTvwyWA?pwd=scal)**
 
