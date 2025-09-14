@@ -269,17 +269,11 @@ Our paper is currently under review. We will update this section with the comple
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{SCALLM,
-  author    = {Ke He and
-               Le He and
-               Lisheng Fan and
-               Xianfu Lei and
-               Thang X. Vu and
-               George K. Karagiannidis and
-               Symeon Chatzinotas},
-  title     = {{SCA-LLM}: Spectral-Attentive Channel Prediction with Large Language Models in {MIMO-OFDM}},
-  journal   = {Under Review},
-  year      = {2025}
+@article{he2025sca,
+  title={SCA-LLM: Spectral-Attentive Channel Prediction with Large Language Models in MIMO-OFDM},
+  author={He, Ke and He, Le and Fan, Lisheng and Lei, Xianfu and Vu, Thang X and Karagiannidis, George K and Chatzinotas, Symeon},
+  journal={arXiv preprint arXiv:2509.08139},
+  year={2025}
 }
 ```
 
